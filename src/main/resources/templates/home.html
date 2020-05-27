@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>HOME</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-0k9uU45Lxv_rWZS7cIhwzP9S2YM2caaUizldNQVGq3NP2uxg&usqp=CAU">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+			<div class="btn-group btn-group-justified" style="margin: 0 0 0 10%">
+ 				<a
+				th:href="@{/listar}" class="btn btn-primary btn-lg active"
+				style="margin: 0% 0 0 24%" role="button">DRAGONES</a>
+				<a
+				th:href="@{/guerrero/listarGuerrero}" class="btn btn-primary btn-lg active"
+				style="margin: 0% 0 0 24%" role="button">GUERREROS</a>
+				<a
+				th:href="@{/subdito/listarSubdito}" class="btn btn-primary btn-lg active"
+				style="margin: 0% 0 0 24%" role="button">SUBDITOS</a>
+				<a
+				th:href="@{/conquista/mapa}" class="btn btn-primary btn-lg active"
+				style="margin: 0% 0 0 24%" role="button">CONQUISTA</a>
+			</div>
+		<br>
+		<br>
+		<br>
+</body>
+</html>
